@@ -56,7 +56,7 @@ export default function FavoriteFunc({ tour }) {
   const updateFav = () => {
 
     dispatch(addToWishList(tour));
-    showSuccessMessage(`You add this tour  ${tour.name} to your whishLis`);
+    showSuccessMessage(`You add this tour  ${tour.name} to your whishList`);
     setWish(true);
   };
   const deleteFav = async () => {

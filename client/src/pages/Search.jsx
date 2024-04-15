@@ -8,7 +8,6 @@ export default function Search() {
   const navigate = useNavigate();
   const [sidebaredata, setSidebaredata] = useState({
     searchTerm: "",
-    // maxPeople: 1,
     sort: "createdAt",
     order: "desc",
   });

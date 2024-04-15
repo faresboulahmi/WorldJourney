@@ -7,9 +7,8 @@ import tourRouter from "./routes/tour.route.js";
 import reviewsRouter from "./routes/reviews.route.js";
 import adminRouter from "./routes/admin.route.js";
 import cookieParser from "cookie-parser";
-
-
 import path from "path";
+
 dotenv.config();
 
 mongoose

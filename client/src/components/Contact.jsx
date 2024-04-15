@@ -99,7 +99,7 @@ export default function Contact({ tour }) {
                    discount Price/person
                  </p>
                  <p className="text-gray-900 font-bold  ">
-                   {tour.discountPrice}$
+                   {tour.regularPrice - tour.discountPrice}$
                  </p>
                </div>
                )}
